@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+d8techtest.settings:
+  type: theme_settings
+  label: 'D8 Tech Test settings'
