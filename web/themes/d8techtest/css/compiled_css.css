@@ -1,0 +1,23 @@
+body {
+  color: darkblue; }
+
+.region-sidebar-first > div {
+  background-color: yellow;
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+.region-sidebar-first > nav {
+  background-color: yellow;
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+.region-sidebar-first > span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 100%;
+  background-color: yellow; }
+
+/*# sourceMappingURL=compiled_css.css.map */
