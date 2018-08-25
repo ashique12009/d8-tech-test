@@ -1,0 +1,5 @@
+name: Ashique simple form
+description: A custom simple form module
+core: 8.x
+type: module
+configure: ashique_simple_form.admin_settings

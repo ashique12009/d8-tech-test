@@ -1,0 +1,15 @@
+ashique_simple_form.simple_form:
+  # path: 'simple-form'
+  path: 'node/1'
+  defaults:
+    _form: '\Drupal\ashique_simple_form\Form\SimpleForm'
+    _title: 'Our cool form'
+  requirements:
+    _permission: 'access content'
+ashique_simple_form.admin_settings:
+  path: '/admin/config/ashique_simple_form'
+  defaults:
+    _form: '\Drupal\ashique_simple_form\Form\ModuleConfigurationForm'
+    _title: 'your_module configuration screen'
+  requirements:
+    _permission: 'administer site configuration'
