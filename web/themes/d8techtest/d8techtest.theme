@@ -6,3 +6,18 @@
  *
  * Place your custom PHP code in this file.
  */
+function d8techtest_preprocess_page(&$variables) 
+{
+    $config = \Drupal::config('ashique_simple_form.settings');
+    $email = $config->get('email_address');
+    $variables['config_email_address'] = $email;
+
+    $form = \Drupal::formBuilder()->getForm('\Drupal\ashique_simple_form\Form\SimpleForm');
+    $variables['credit_card_form'] = $form;
+}
+
+function d8techtest_preprocess_node(&$variables)
+{
+    $form = \Drupal::formBuilder()->getForm('\Drupal\ashique_simple_form\Form\SimpleForm');
+    $variables['credit_card_form'] = $form;
+}

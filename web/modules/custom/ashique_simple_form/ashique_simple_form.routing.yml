@@ -1,6 +1,5 @@
 ashique_simple_form.simple_form:
-  # path: 'simple-form'
-  path: 'node/1'
+  path: 'simple-form'
   defaults:
     _form: '\Drupal\ashique_simple_form\Form\SimpleForm'
     _title: 'Our cool form'

@@ -1,0 +1,4 @@
+Here is the link to save recipient email address in admin panel as configuration: 
+http://localhost/d8_projects/d8_tech_test/web/admin/config/ashique_simple_form
+--------------------------------------------------------------------------------------------------
+
